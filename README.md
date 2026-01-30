@@ -1,170 +1,53 @@
-# 📅 12-Week System Design Roadmap
+# 📅 **12-Week System Design Roadmap**
 
-<img width="698" alt="System Design Roadmap" src="https://github.com/user-attachments/assets/a36db043-fb5a-44e7-90a4-f08f2077fb69" />
+<img width="698" alt="Screenshot 2025-04-26 at 3 40 47 PM" src="https://github.com/user-attachments/assets/a36db043-fb5a-44e7-90a4-f08f2077fb69" />
 
-This repository provides a **12-week structured roadmap** to prepare for **System Design interviews**, covering fundamentals → distributed systems → real-world design problems.
 
----
-
-## 🗺️ Roadmap Overview (High-Level)
-
-> ℹ️ This table is a **visual overview only**.  
-> ✅ Progress is tracked using **checklists below**.
-
-| Month | Week | Focus Area | Milestone |
-|------|------|-----------|-----------|
-| Month 1 | Week 1 | Computer Science Basics | 0% |
-| Month 1 | Week 2 | Networking Essentials | 8% |
-| Month 1 | Week 3 | Databases & Distributed Systems | 17% |
-| Month 1 | Week 4 | OS Concepts & Storage | 25% |
-| Month 2 | Week 5 | Load Balancing & Scaling | 33% |
-| Month 2 | Week 6 | Caching Systems | 42% |
-| Month 2 | Week 7 | Databases Deep Dive | 50% |
-| Month 2 | Week 8 | Queues & Messaging | 58% |
-| Month 3 | Week 9 | Design Thinking & Resilience | 67% |
-| Month 3 | Week 10 | Design Patterns & Operations | 75% |
-| Month 3 | Week 11 | Practice Questions | 83% |
-| Month 3 | Week 12 | Mock Interviews & Review | 100% |
+| **Month** | **Week** | **Milestone** | **Topics** | **Progress** |
+|-----------|----------|---------------|------------|--------------|
+| **Month 1** | **Week 1** | **0%** - **[□□□□□□□□□] Week 1 – Computer Science Basics** | - OS Concepts (Processes, Threads, Memory Management) <br> - Networking Basics (TCP/IP, HTTP, DNS) <br> - Data Structures (Arrays, Linked Lists, Trees) <br> - Algorithms (Big O Notation, Sorting, Searching) | [X] |
+| **Month 1** | **Week 2** | **8%** - **[■□□□□□□□□] Week 2 – Networking Essentials** | - Load Balancing (Types, Algorithms) <br> - HTTP Methods and Status Codes <br> - Caching Mechanisms (Cache Invalidation, Cache-Aside) <br> - CDN (Content Delivery Networks) | [ ] |
+| **Month 1** | **Week 3** | **17%** - **[■■□□□□□□□] Week 3 – Databases & Distributed Systems** | - Relational Databases vs NoSQL Databases <br> - CAP Theorem & Trade-offs <br> - Sharding & Partitioning Strategies <br> - Data Replication Techniques | [ ] |
+| **Month 1** | **Week 4** | **25%** - **[■■■□□□□□□] Week 4 – OS Concepts & Storage** | - File Systems (NTFS, EXT, HDFS) <br> - Virtualization & Containers <br> - Disk I/O and Data Consistency <br> - Distributed File Systems | [ ] |
+| **Month 2** | **Week 5** | **33%** - **[■■■■□□□□□] Week 5 – Load Balancing & Scaling** | - Horizontal vs Vertical Scaling <br> - Elastic Load Balancing (Auto-scaling) <br> - Health Checks & Failover Mechanisms <br> - Rate Limiting & Throttling | [ ] |
+| **Month 2** | **Week 6** | **42%** - **[■■■■■□□□□] Week 6 – Caching Systems** | - Cache Types (Memory, Distributed) <br> - Cache Eviction Strategies <br> - Redis & Memcached <br> - CDN Integration | [ ] |
+| **Month 2** | **Week 7** | **50%** - **[■■■■■■□□□] Week 7 – Databases Deep Dive** | - ACID vs BASE Transactions <br> - SQL vs NoSQL Databases <br> - Indexing & Query Optimization <br> - CAP Theorem & Database Consistency Models (Eventual vs Strong) | [ ] |
+| **Month 2** | **Week 8** | **58%** - **[■■■■■■■□□] Week 8 – Queues & Messaging** | - Message Brokers (Kafka, RabbitMQ) <br> - Publish-Subscribe Model <br> - Dead Letter Queues & Retries <br> - Event-Driven Architectures | [ ] |
+| **Month 3** | **Week 9** | **67%** - **[■■■■■■■■□] Week 9 – Design Thinking & Resilience** | - 4-Step Design Approach <br> - Bottleneck Identification <br> - Data & Control Flow in Systems <br> - Stateless vs Stateful Systems <br> - Failure Handling & Circuit Breakers | [ ] |
+| **Month 3** | **Week 10** | **75%** - **[■■■■■■■■□□] Week 10 – Design Patterns & Operational Strategies** | - Rate Limiting (Token Bucket, Leaky Bucket) <br> - Circuit Breaker & Retry Logic <br> - Leader Election Algorithms <br> - CQRS (Command Query Responsibility Segregation) <br> - Health Checks & Heartbeats | [ ] |
+| **Month 3** | **Week 11** | **83%** - **[■■■■■■■■■□] Week 11 – Practice Questions** | - System Design Interview Questions (e.g., Design Twitter, Design Uber) <br> - Whiteboard Design Exercises <br> - Online Mock Interviews | [ ] |
+| **Month 3** | **Week 12** | **100%** - **[■■■■■■■■■] Week 12 – Mock Interviews & Review** | - Mock Interviews with Peers/Experts <br> - Review System Design Frameworks <br> - Identify Weak Areas & Improve | [ ] |
 
 ---
 
-## ✅ Progress Tracker (Clickable Checklists)
+### Updated **Milestone Progress** for Monthly Overview:
 
-### Week 1 – Computer Science Basics
-- [ ] OS Concepts (Processes, Threads, Memory Management)
-- [ ] Networking Basics (TCP/IP, HTTP, DNS)
-- [ ] Data Structures (Arrays, Linked Lists, Trees)
-- [ ] Algorithms (Big O Notation, Sorting, Searching)
+- **Month 1**: **25%** Progress (from Weeks 1 to 4)
+- **Month 2**: **58%** Progress (from Weeks 5 to 8)
+- **Month 3**: **100%** Progress (from Weeks 9 to 12)
 
----
+### 📝 How to Track Your Progress
 
-### Week 2 – Networking Essentials
-- [ ] Load Balancing (Types, Algorithms)
-- [ ] HTTP Methods and Status Codes
-- [ ] Caching Mechanisms (Cache Invalidation, Cache-Aside)
-- [ ] Content Delivery Networks (CDN)
+Fork this repository to keep track of your progress.
 
----
+Track your progress by checking off the boxes next to each topic once you’ve completed it.
 
-### Week 3 – Databases & Distributed Systems
-- [ ] Relational Databases vs NoSQL
-- [ ] CAP Theorem & Trade-offs
-- [ ] Sharding & Partitioning Strategies
-- [ ] Data Replication Techniques
+The Milestone column shows your current progress as a percentage (0% to 100%) and includes a visual progress bar (e.g., [■■■■■] for 100% progress).
 
----
+Customize your learning path by adding notes, challenges, or additional topics as you go.
 
-### Week 4 – OS Concepts & Storage
-- [ ] File Systems (NTFS, EXT, HDFS)
-- [ ] Virtualization & Containers
-- [ ] Disk I/O and Data Consistency
-- [ ] Distributed File Systems
+### 💻 How to Use This Repository
 
----
+Fork this repository to your personal GitHub account.
 
-### Week 5 – Load Balancing & Scaling
-- [ ] Horizontal vs Vertical Scaling
-- [ ] Elastic Load Balancing & Auto-scaling
-- [ ] Health Checks & Failover
-- [ ] Rate Limiting & Throttling
+Use the checkboxes to mark off completed topics.
 
----
+Add any customized notes or resources that you find helpful in your learning journey.
 
-### Week 6 – Caching Systems
-- [ ] Cache Types (In-memory, Distributed)
-- [ ] Cache Eviction Strategies
-- [ ] Redis & Memcached
-- [ ] CDN Integration
+Engage with the community by contributing insights, solutions, and extra resources. You can open issues or create pull requests to share your progress or improvements!
 
----
+By following this roadmap and tracking your progress, you will be well-equipped to ace your system design interviews! 🚀
 
-### Week 7 – Databases Deep Dive
-- [ ] ACID vs BASE Transactions
-- [ ] SQL vs NoSQL Databases
-- [ ] Indexing & Query Optimization
-- [ ] Consistency Models (Strong vs Eventual)
 
----
 
-### Week 8 – Queues & Messaging
-- [ ] Message Brokers (Kafka, RabbitMQ)
-- [ ] Publish–Subscribe Model
-- [ ] Dead Letter Queues & Retries
-- [ ] Event-Driven Architectures
-
----
-
-### Week 9 – Design Thinking & Resilience
-- [ ] 4-Step System Design Approach
-- [ ] Bottleneck Identification
-- [ ] Data & Control Flow
-- [ ] Stateless vs Stateful Systems
-- [ ] Failure Handling & Circuit Breakers
-
----
-
-### Week 10 – Design Patterns & Operations
-- [ ] Rate Limiting (Token Bucket, Leaky Bucket)
-- [ ] Circuit Breaker & Retry Logic
-- [ ] Leader Election Algorithms
-- [ ] CQRS (Command Query Responsibility Segregation)
-- [ ] Health Checks & Heartbeats
-
----
-
-### Week 11 – Practice Questions
-- [ ] Design Twitter
-- [ ] Design Uber
-- [ ] Whiteboard Design Exercises
-- [ ] Online Mock Interviews
-
----
-
-### Week 12 – Mock Interviews & Review
-- [ ] Mock Interviews with Peers / Experts
-- [ ] Review System Design Frameworks
-- [ ] Identify Weak Areas & Improve
-
----
-
-## 📊 Monthly Progress Summary (Manual)
-
-- **Month 1**: 25%
-- **Month 2**: 58%
-- **Month 3**: 100%
-
-> 🔧 Percentages and progress bars are **manually updated** based on checklist completion.
-
----
-
-## 📝 How to Use This Repository
-
-1. **Fork** the repository to your GitHub account
-2. Open `README.md`
-3. Click the ✏️ **Edit** button
-4. Check off topics as you complete them
-5. Optionally add:
-   - Notes
-   - Links
-   - Diagrams
-   - Personal insights
-
----
-
-## 🤝 Contributing
-
-You’re welcome to:
-- Open issues with tips or resources
-- Submit pull requests to improve the roadmap
-- Share interview experiences and optimizations
-
----
-
-## 🚀 Final Note
-
-If you complete this roadmap honestly and consistently, you’ll have:
-- Strong system design fundamentals
-- Confidence in interviews
-- A reusable design framework
-
-Happy designing! 💪
+rewrite the entire readme file
